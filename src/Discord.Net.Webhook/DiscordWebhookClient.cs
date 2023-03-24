@@ -16,7 +16,7 @@ namespace Discord.Webhook
         internal readonly AsyncEvent<Func<LogMessage, Task>> _logEvent = new AsyncEvent<Func<LogMessage, Task>>();
 
         private readonly ulong _webhookId;
-        internal IWebhook Webhook;
+        public IWebhook Webhook;
         internal readonly Logger _restLogger;
 
         internal API.DiscordRestApiClient ApiClient { get; }

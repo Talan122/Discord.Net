@@ -23,6 +23,12 @@ Discord.Net is an unofficial .NET API Wrapper for the Discord client (https://di
 
 - https://discordnet.dev
 
+## Fork
+
+This is a fork of Discord.Net, obviously. The point is a few minor tweeks to certain objects that come in handy. For example, making some previously-private methods/props public so that they can be used in other contexts if need be.
+
+Might add some special methods here and there for ease of use on clients and such, but eh it's probably unecessary.
+
 ## 📥 Installation
 
 ### Stable (NuGet)
